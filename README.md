@@ -12,16 +12,12 @@ This project provides the code and results for 'Multi-Channel Aligned Feature Fu
 
 
 # Saliency maps
-   We provide saliency maps of our MCoCoNet on four datasets in /datasets.
+   We provide saliency maps of our MCoCoNet on four datasets in 
 
 
 # Training
 
-python train.py.
-
-For MCoCoNet_VGG, please modify paths of VGG backbone in MCoCoNet/model/vgg.py.
-
-data_aug.m is used for data augmentation.
+Run train.py.
 
 
 # Pre-trained model and testing
@@ -30,7 +26,3 @@ data_aug.m is used for data augmentation.
 2. Modify paths of pre-trained models and datasets.
 
 3. Run test.py.
-
-   
-# Evaluation Tool
-   You can use the evaluation tool in /evaluation/main.py to evaluate the above saliency maps.
